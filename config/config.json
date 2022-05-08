@@ -1,0 +1,19 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "sp-fx-list-search-web-part-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/spFxListSearchWebPart/SpFxListSearchWebPartWebPart.js",
+          "manifest": "./src/webparts/spFxListSearchWebPart/SpFxListSearchWebPartWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "SpFxListSearchWebPartWebPartStrings": "lib/webparts/spFxListSearchWebPart/loc/{locale}.js",
+    "PropertyControlStrings": "node_modules/@pnp/spfx-property-controls/lib/loc/{locale}.js"
+  }
+}
